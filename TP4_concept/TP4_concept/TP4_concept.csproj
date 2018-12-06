@@ -200,6 +200,10 @@
       <DependentUpon>About.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Classe\Commande.cs" />
+    <Compile Include="Classe\LigneCommande.cs" />
+    <Compile Include="Classe\Menu.cs" />
+    <Compile Include="Classe\Mets.cs" />
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -242,7 +246,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Classe\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
