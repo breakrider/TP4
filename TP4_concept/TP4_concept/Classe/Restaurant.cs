@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using TP4_concept.Classe;
 
-namespace Tp4_concept.Classe
+namespace TP4_concept.Classe
 {
     public class Restaurant : Etablissement
     {
