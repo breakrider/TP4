@@ -11,18 +11,26 @@
     </asp:ContentPlaceHolder>
 </head>
 <body>
-     <div class="section en_tete span_12_of_12 ">
-         <div>
-             <h1>Restaurant Concept!</h1>
-             <h2>
-                <asp:ContentPlaceHolder ID="TypeEmploye" runat="server"></asp:ContentPlaceHolder>
+     <div class="section en_tete span_12_of_12">
+         <div class="gauche">
+             <h1 class="titreConcept">Restaurant Concept!</h1>
+             <h2 class="titreEmploye">
+                 <asp:ContentPlaceHolder ID="TypeEmploye" runat="server"></asp:ContentPlaceHolder>
              </h2>
          </div>
-         <div class="Affiche_Utilisateur">
-            <asp:ContentPlaceHolder ID="AfficheUtilisateur" runat="server">
-            </asp:ContentPlaceHolder>
+         <div class="droite afficheUtilisateur">
+             <div class="userText">
+
+                <p class="nomUtilisateur">
+                    <asp:ContentPlaceHolder ID="AfficherUtilisateur" runat="server"></asp:ContentPlaceHolder>
+                </p>
+                <a href="">Déconnexion</a>
+            </div>
+            <div class="droite">
+            <img class="iconUser" src="images/iconUser.png" />
+            </div>
          </div>
-         <div class="bouton_CU">
+         <div class="alone bouton_CU">
             <asp:ContentPlaceHolder ID="BoutonsCU" runat="server">
             </asp:ContentPlaceHolder>
          </div>
