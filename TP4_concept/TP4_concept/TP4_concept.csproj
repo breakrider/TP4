@@ -155,6 +155,8 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Pages\accepter_commande.aspx" />
+    <Content Include="Pages\images\iconUser.png" />
     <Content Include="Pages\pagesEmploye.Master" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Pages\grid.css" />
@@ -233,6 +235,13 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\accepter_commande.aspx.cs">
+      <DependentUpon>accepter_commande.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\accepter_commande.aspx.designer.cs">
+      <DependentUpon>accepter_commande.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages\pagesEmploye.Master.cs">
       <DependentUpon>pagesEmploye.Master</DependentUpon>

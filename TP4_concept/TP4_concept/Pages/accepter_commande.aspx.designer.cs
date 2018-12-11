@@ -7,54 +7,72 @@
 // </généré automatiquement>
 //------------------------------------------------------------------------------
 
-namespace TP4_concept.Pages {
+namespace TP4_concept.Pages.page_accepter_consulter {
     
     
-    public partial class pagesEmploye {
+    public partial class accepter_commande {
         
         /// <summary>
-        /// Contrôle head.
+        /// Contrôle Button1.
         /// </summary>
         /// <remarks>
         /// Champ généré automatiquement.
         /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder head;
+        protected global::System.Web.UI.WebControls.Button Button1;
         
         /// <summary>
-        /// Contrôle TypeEmploye.
+        /// Contrôle Button2.
         /// </summary>
         /// <remarks>
         /// Champ généré automatiquement.
         /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder TypeEmploye;
+        protected global::System.Web.UI.WebControls.Button Button2;
         
         /// <summary>
-        /// Contrôle AfficherUtilisateur.
+        /// Contrôle Button3.
         /// </summary>
         /// <remarks>
         /// Champ généré automatiquement.
         /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder AfficherUtilisateur;
+        protected global::System.Web.UI.WebControls.Button Button3;
         
         /// <summary>
-        /// Contrôle BoutonsCU.
+        /// Contrôle Label1.
         /// </summary>
         /// <remarks>
         /// Champ généré automatiquement.
         /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder BoutonsCU;
+        protected global::System.Web.UI.WebControls.Label Label1;
         
         /// <summary>
-        /// Contrôle ContenuPage.
+        /// Contrôle Label2.
         /// </summary>
         /// <remarks>
         /// Champ généré automatiquement.
         /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder ContenuPage;
+        protected global::System.Web.UI.WebControls.Label Label2;
+        
+        /// <summary>
+        /// Contrôle aaccepter.
+        /// </summary>
+        /// <remarks>
+        /// Champ généré automatiquement.
+        /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView aaccepter;
+        
+        /// <summary>
+        /// Contrôle description.
+        /// </summary>
+        /// <remarks>
+        /// Champ généré automatiquement.
+        /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ListBox description;
     }
 }
