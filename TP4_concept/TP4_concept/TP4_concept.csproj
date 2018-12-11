@@ -200,10 +200,19 @@
       <DependentUpon>About.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Classe\Central.cs" />
+    <Compile Include="Classe\Client.cs" />
     <Compile Include="Classe\Commande.cs" />
+    <Compile Include="Classe\Employe.cs" />
+    <Compile Include="Classe\Etablissement.cs" />
+    <Compile Include="Classe\EtatCommande.cs" />
     <Compile Include="Classe\LigneCommande.cs" />
     <Compile Include="Classe\Menu.cs" />
     <Compile Include="Classe\Mets.cs" />
+    <Compile Include="Classe\Note.cs" />
+    <Compile Include="Classe\Restaurant.cs" />
+    <Compile Include="Classe\TypeEmploye.cs" />
+    <Compile Include="Classe\Utilisateur.cs" />
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -246,6 +255,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="bin\" />
+    <Folder Include="obj\Debug\TempPE\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
