@@ -13,6 +13,10 @@ namespace TP4_concept.Pages.page_accepter_consulter
         {
 
         }
+        public override void VerifyRenderingInServerForm(Control control)
+        {
+            //base.VerifyRenderingInServerForm(control); 
+        }
 
         protected void ListBox2_SelectedIndexChanged(object sender, EventArgs e)
         {

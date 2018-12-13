@@ -101,4 +101,8 @@
     .span_12_of_12 {
         width: 100%;
     }
+
+    .commandeacc {
+        padding: 35px;
+    }
 }
