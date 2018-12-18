@@ -7,6 +7,16 @@ h1 {
 }
 
 h2 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Cabin', sans-serif;
+}
+
+p {
+     font-family: 'Cabin', sans-serif;
+}
+
+a {
     font-family: 'Cabin', sans-serif;
 }
 
@@ -60,4 +70,22 @@ h2 {
     float: right;
     height: 150px;
     margin-right: 30px;
+}
+
+
+
+.borderRight {
+    border-right: 1px solid #000;
+}
+
+/* Page AdminCUMenus */
+
+#divLstMenus,
+#divLstCategories
+{
+    width:20%;
+}
+
+#divLstMets { 
+    width:30%;
 }

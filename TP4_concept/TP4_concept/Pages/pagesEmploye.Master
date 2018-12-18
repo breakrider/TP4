@@ -11,7 +11,8 @@
     </asp:ContentPlaceHolder>
 </head>
 <body>
-     <div class="section en_tete span_12_of_12">
+    <form runat="server">
+     <div class="section col en_tete span_12_of_12">
          <div class="gauche">
              <h1 class="titreConcept">Restaurant Concept!</h1>
              <h2 class="titreEmploye">
@@ -24,7 +25,7 @@
                 <p class="nomUtilisateur">
                     <asp:ContentPlaceHolder ID="AfficherUtilisateur" runat="server"></asp:ContentPlaceHolder>
                 </p>
-                <a>Déconnexion</a>
+                <a href="">Déconnexion</a>
             </div>
             <div class="droite">
                 <img class="iconUser" src="images/iconUser.png" />
@@ -37,5 +38,6 @@
     <div class="span_12_12 contenu">
         <asp:ContentPlaceHolder ID="ContenuPage" runat="server"></asp:ContentPlaceHolder>
     </div>
+    </form>
 </body>
 </html>
