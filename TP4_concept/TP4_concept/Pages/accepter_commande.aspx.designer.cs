@@ -67,15 +67,6 @@ namespace TP4_concept.Pages.page_accepter_consulter {
         protected global::System.Web.UI.WebControls.GridView GridView1;
         
         /// <summary>
-        /// Contrôle ListBox1.
-        /// </summary>
-        /// <remarks>
-        /// Champ généré automatiquement.
-        /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ListBox ListBox1;
-        
-        /// <summary>
         /// Contrôle Label5.
         /// </summary>
         /// <remarks>
@@ -92,15 +83,6 @@ namespace TP4_concept.Pages.page_accepter_consulter {
         /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label6;
-        
-        /// <summary>
-        /// Contrôle ListBox2.
-        /// </summary>
-        /// <remarks>
-        /// Champ généré automatiquement.
-        /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ListBox ListBox2;
         
         /// <summary>
         /// Contrôle Button4.
@@ -128,5 +110,32 @@ namespace TP4_concept.Pages.page_accepter_consulter {
         /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.HyperLink HyperLink1;
+        
+        /// <summary>
+        /// Contrôle LinqDataSource1.
+        /// </summary>
+        /// <remarks>
+        /// Champ généré automatiquement.
+        /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinqDataSource LinqDataSource1;
+        
+        /// <summary>
+        /// Contrôle TextBox1.
+        /// </summary>
+        /// <remarks>
+        /// Champ généré automatiquement.
+        /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TextBox1;
+        
+        /// <summary>
+        /// Contrôle DetailsView2.
+        /// </summary>
+        /// <remarks>
+        /// Champ généré automatiquement.
+        /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DetailsView DetailsView2;
     }
 }
