@@ -169,6 +169,7 @@
     </Content>
     <Content Include="Pages\accepter_commande.aspx" />
     <Content Include="Pages\images\iconUser.png" />
+    <Content Include="Pages\PageInexistante.html" />
     <Content Include="Pages\pagesEmploye.Master" />
     <Content Include="base_donnee\bdConcept.dbml">
       <Generator>MSLinqToSQLGenerator</Generator>
@@ -182,6 +183,7 @@
     <Content Include="Pages\grid.css" />
     <Content Include="Pages\themeEmploye.css" />
     <Content Include="Pages\WebForm1.aspx" />
+    <Content Include="Pages\AdminCUMenus.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
@@ -226,12 +228,14 @@
       <DependentUpon>About.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
+
     <Compile Include="base_donnee\bdConcept.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>bdConcept.dbml</DependentUpon>
     </Compile>
     <Compile Include="Classe\bdConcept.cs" />
+
     <Compile Include="Classe\Central.cs" />
     <Compile Include="Classe\Client.cs" />
     <Compile Include="Classe\Commande.cs" />
@@ -283,6 +287,13 @@
     </Compile>
     <Compile Include="Pages\WebForm1.aspx.designer.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\AdminCUMenus.aspx.cs">
+      <DependentUpon>AdminCUMenus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\AdminCUMenus.aspx.designer.cs">
+      <DependentUpon>AdminCUMenus.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">

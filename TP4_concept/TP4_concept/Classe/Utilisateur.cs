@@ -14,8 +14,14 @@ namespace TP4_concept.Classe
 
         public String NomUtilisateur
         {
-            get;
-            protected set;
+            get
+            {
+                return this.m_NomUtilisateur;
+            }
+            protected set
+            {
+                this.m_NomUtilisateur = value;
+            }
         }
 
         public String Nom
