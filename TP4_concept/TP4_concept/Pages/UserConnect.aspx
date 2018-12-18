@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/maitre.Master" AutoEventWireup="true" CodeBehind="UserConnect.aspx.cs" Inherits="PrototypeTP4.UserConnect" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="client.Master" AutoEventWireup="true" CodeBehind="UserConnect.aspx.cs" Inherits="PrototypeTP4.UserConnect" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 
