@@ -25,6 +25,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <WcfConfigValidationEnabled>True</WcfConfigValidationEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -51,6 +52,9 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
     <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Drawing" />
@@ -134,6 +138,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="App_Data\bdConcept.mdf" />
+    <Content Include="App_Data\bdConcept_log.ldf">
+      <DependentUpon>bdConcept.mdf</DependentUpon>
+    </Content>
+    <Content Include="base_donnee\bdConcept.mdf" />
+    <Content Include="base_donnee\bdConcept_log.ldf">
+      <DependentUpon>bdConcept.mdf</DependentUpon>
+    </Content>
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -159,6 +171,14 @@
     <Content Include="Pages\images\iconUser.png" />
     <Content Include="Pages\PageInexistante.html" />
     <Content Include="Pages\pagesEmploye.Master" />
+    <Content Include="base_donnee\bdConcept.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>bdConcept.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+    <None Include="base_donnee\bdConcept.dbml.layout">
+      <DependentUpon>bdConcept.dbml</DependentUpon>
+    </None>
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Pages\grid.css" />
     <Content Include="Pages\themeEmploye.css" />
@@ -208,7 +228,14 @@
       <DependentUpon>About.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Classe\CategorieMenu.cs" />
+
+    <Compile Include="base_donnee\bdConcept.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>bdConcept.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Classe\bdConcept.cs" />
+
     <Compile Include="Classe\Central.cs" />
     <Compile Include="Classe\Client.cs" />
     <Compile Include="Classe\Commande.cs" />
@@ -239,6 +266,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="IService1.cs" />
     <Compile Include="Pages\accepter_commande.aspx.cs">
       <DependentUpon>accepter_commande.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -291,7 +319,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\" />
     <Folder Include="bin\" />
     <Folder Include="obj\Debug\TempPE\" />
   </ItemGroup>
@@ -305,6 +332,9 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

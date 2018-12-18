@@ -64,28 +64,75 @@ namespace TP4_concept.Pages.page_accepter_consulter {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label4;
+
+        protected global::System.Web.UI.WebControls.GridView GridView1;
         
         /// <summary>
-        /// ListBox3 control.
+        /// Contrôle Label5.
+        /// </summary>
+        /// <remarks>
+        /// Champ généré automatiquement.
+        /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label5;
+        
+        /// <summary>
+        /// Contrôle Label6.
+
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ListBox ListBox3;
+
+        protected global::System.Web.UI.WebControls.Label Label6;
         
         /// <summary>
-        /// ListBox1 control.
+        /// Contrôle Button4.
+
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ListBox ListBox1;
+
+        protected global::System.Web.UI.WebControls.Button Button4;
         
         /// <summary>
-        /// TextBox1 control.
+        /// Contrôle Button5.
+
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+
+        protected global::System.Web.UI.WebControls.Button Button5;
+        
+        /// <summary>
+        /// Contrôle HyperLink1.
+
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.HyperLink HyperLink1;
+        
+        /// <summary>
+
+        /// Contrôle LinqDataSource1.
+
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinqDataSource LinqDataSource1;
+        
+      
+        /// Contrôle TextBox1.
+
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
@@ -94,30 +141,12 @@ namespace TP4_concept.Pages.page_accepter_consulter {
         protected global::System.Web.UI.WebControls.TextBox TextBox1;
         
         /// <summary>
-        /// Button4 control.
+        /// Contrôle DetailsView2.
         /// </summary>
         /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
+        /// Champ généré automatiquement.
+        /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button4;
-        
-        /// <summary>
-        /// Button5 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button5;
-        
-        /// <summary>
-        /// HyperLink1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink HyperLink1;
+        protected global::System.Web.UI.WebControls.DetailsView DetailsView2;
     }
 }

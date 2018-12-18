@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Pages/pagesEmploye.Master" AutoEventWireup="true" CodeBehind="accepter_commande.aspx.cs" Inherits="TP4_concept.Pages.page_accepter_consulter.accepter_commande" %>
+﻿<%@ Page Title="" Language="C#"  MasterPageFile="~/Pages/pagesEmploye.Master" AutoEventWireup="true" CodeBehind="accepter_commande.aspx.cs" Inherits="TP4_concept.Pages.page_accepter_consulter.accepter_commande" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <style type="text/css">
@@ -55,7 +55,9 @@
 
                 </td>
                 <td>
+
                     <asp:HyperLink CssClass="centrer" ID="HyperLink1" href="" runat="server">Contacter client</asp:HyperLink>
+
                 </td>
             </tr>
         </table>
