@@ -20,7 +20,17 @@ a {
     font-family: 'Cabin', sans-serif;
 }
 
+.centrer {
+    text-align: center;
+}
+
 /* Pages */
+
+.titreTab {
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
 
 .en_tete {
     background-color: #E53914;
@@ -72,7 +82,10 @@ a {
     margin-right: 30px;
 }
 
-
+.borderAll {
+    border: 1px solid #000;
+    border-radius: 5px;
+}
 
 .borderRight {
     border-right: 1px solid #000;
