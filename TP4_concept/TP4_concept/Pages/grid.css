@@ -1,4 +1,21 @@
-﻿/*  SECTIONS  */
+﻿.body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.alone {
+    clear: both;
+}
+
+.gauche {
+    float: left;
+}
+
+.droite {
+    float: right;
+}
+
+/*  SECTIONS  */
 .section {
     clear: both;
     padding: 0px;
@@ -15,21 +32,6 @@
     .col:first-child {
         margin-left: 0;
     }
-
-/*  GROUPING  */
-.group:before,
-.group:after {
-    content: "";
-    display: table;
-}
-
-.group:after {
-    clear: both;
-}
-
-.group {
-    zoom: 1; /* For IE 6/7 */
-}
 
 /*  GRID OF TWELVE  */
 .span_12_of_12 {
@@ -100,5 +102,9 @@
     .span_11_of_12,
     .span_12_of_12 {
         width: 100%;
+    }
+
+    .commandeacc {
+        padding: 35px;
     }
 }
