@@ -157,6 +157,7 @@
     </Content>
     <Content Include="Pages\accepter_commande.aspx" />
     <Content Include="Pages\images\iconUser.png" />
+    <Content Include="Pages\PageInexistante.html" />
     <Content Include="Pages\pagesEmploye.Master" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Pages\grid.css" />
