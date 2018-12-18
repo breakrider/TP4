@@ -1,21 +1,4 @@
-﻿body{
-    margin:0;
-    padding:0;
-}
-
-.gauche {
-    float:left;
-}
-
-.droite{
-    float:right;
-}
-
-.alone{
-    clear:both;
-}
-
-/*  SECTIONS  */
+﻿/*  SECTIONS  */
 .section {
     clear: both;
     padding: 0px;
@@ -117,5 +100,9 @@
     .span_11_of_12,
     .span_12_of_12 {
         width: 100%;
+    }
+
+    .commandeacc {
+        padding: 35px;
     }
 }

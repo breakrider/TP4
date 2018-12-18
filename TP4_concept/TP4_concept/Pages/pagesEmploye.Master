@@ -23,6 +23,7 @@
 
                 <p class="nomUtilisateur">
                     <asp:ContentPlaceHolder ID="AfficherUtilisateur" runat="server"></asp:ContentPlaceHolder>
+
                 </p>
                 <a href="">Déconnexion</a>
             </div>
