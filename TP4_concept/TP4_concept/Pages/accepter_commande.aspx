@@ -10,9 +10,9 @@
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="BoutonsCU" runat="server">
     <form runat="server">
-        <asp:Button CssClass="boutonsCU" ID="Button1" runat="server" Text="Accepter commande" Width="199px" Height="35px" />
-        <asp:Button CssClass="boutonsCU" ID="Button2" runat="server" Text="Préparer commande" Width="191px" Height="35px" />
-        <asp:Button CssClass="boutonsCU" ID="Button3" runat="server" Text="Préparer commande" Width="191px" Height="35px" />
+        <asp:Button CssClass="boutonsCU" ID="Button1" runat="server" Text="Accepter commande" />
+        <asp:Button CssClass="boutonsCU" ID="Button2" runat="server" Text="Préparer commande" />
+        <asp:Button CssClass="boutonsCU" ID="Button3" runat="server" Text="Préparer commande" />
     </form>
 </asp:Content>
 <asp:Content ID="Content5" ContentPlaceHolderID="ContenuPage" runat="server">
