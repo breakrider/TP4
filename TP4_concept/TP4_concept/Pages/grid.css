@@ -1,4 +1,21 @@
-﻿/*  SECTIONS  */
+﻿.body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.alone {
+    clear: both;
+}
+
+.gauche {
+    float: left;
+}
+
+.droite {
+    float: right;
+}
+
+/*  SECTIONS  */
 .section {
     clear: both;
     padding: 0px;

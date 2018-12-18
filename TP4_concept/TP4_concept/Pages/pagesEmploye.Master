@@ -23,17 +23,15 @@
 
                 <p class="nomUtilisateur">
                     <asp:ContentPlaceHolder ID="AfficherUtilisateur" runat="server"></asp:ContentPlaceHolder>
-
                 </p>
-                <a href="">Déconnexion</a>
+                <a>Déconnexion</a>
             </div>
             <div class="droite">
-            <img class="iconUser" src="images/iconUser.png" />
+                <img class="iconUser" src="images/iconUser.png" />
             </div>
          </div>
-         <div class="alone bouton_CU">
-            <asp:ContentPlaceHolder ID="BoutonsCU" runat="server">
-            </asp:ContentPlaceHolder>
+         <div class="alone">
+            <asp:ContentPlaceHolder ID="BoutonsCU" runat="server"></asp:ContentPlaceHolder>
          </div>
     </div>
     <div class="span_12_12 contenu">
