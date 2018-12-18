@@ -35,5 +35,10 @@ namespace TP4_concept.Classe
         {
             return this.MenuAssocie != null;
         }
+
+        public override string ToString()
+        {
+            return this.NomSuccursale;
+        }
     }
 }

@@ -9,14 +9,16 @@
 <asp:Content ID="Content4" ContentPlaceHolderID="BoutonsCU" runat="server">
      <asp:Button CssClass="boutonsCU" ID="BtnCUGestionMenus" runat="server" Text="Gestion Menus" />
      <asp:Button CssClass="boutonsCU" ID="BtnCUGestionRestaurants" runat="server" Text="Gestion des Restaurants" />
-     <asp:Button CssClass="boutonsCU" ID="BtnCUGestionUtilisateurs" runat="server" Text="Gestion des Utilisateurs" />
+     <asp:Button CssClass="boutonsCU" ID="BtnCUGestionUtilisateurs" runat="server" Text="Gestion des Utilisateurs" OnClick="BtnCUGestionUtilisateurs_Click" />
 </asp:Content>
 <asp:Content ID="Content5" ContentPlaceHolderID="ContenuPage" runat="server">
+    <asp:ObjectDataSource ID="dataSourceListeMenu" runat="server"></asp:ObjectDataSource>
     <div class="contenu section">
         <div id="divLstMenus" class="col span_3_of_12 borderRight">
             <h2> Menus enregistrés</h2>
-            <asp:ListBox CssClass="alone" ID="LstMenus" runat="server" Width="95%"></asp:ListBox>
-            <asp:Button Style="margin-right:5%;" CssClass="boutonsCU droite" ID="btnAjouterMenu" runat="server" Text="Ajouter Menu" />
+            <asp:ListBox CssClass="alone" ID="LstMenus" runat="server" Width="95%" OnSelectedIndexChanged="LstMenus_SelectedIndexChanged" AutoPostBack="True"></asp:ListBox>
+            
+            <asp:Button Style="margin-right:5%;" CssClass="boutonsCU droite" ID="btnAjouterMenu" runat="server" Text="Ajouter Menu" OnClick="btnAjouterMenu_Click" />
         </div>
         <div id="divInfoMenu" class="col span_9_of_12">
             <div id="divTopInfoMenu">

@@ -49,6 +49,15 @@ namespace TP4_concept.Pages {
         protected global::System.Web.UI.WebControls.Button BtnCUGestionUtilisateurs;
         
         /// <summary>
+        /// dataSourceListeMenu control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ObjectDataSource dataSourceListeMenu;
+        
+        /// <summary>
         /// LstMenus control.
         /// </summary>
         /// <remarks>
