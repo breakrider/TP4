@@ -17,7 +17,7 @@ namespace PrototypeTP4
 
         protected void btnCommander_Click(object sender, EventArgs e)
         {
-            this.Response.Redirect("~/Commander.aspx");
+            this.Response.Redirect("Commander.aspx");
         }
     }
 }

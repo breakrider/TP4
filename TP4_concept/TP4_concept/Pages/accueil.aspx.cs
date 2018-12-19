@@ -21,7 +21,7 @@ namespace PrototypeTP4
             {
                 this.Session[SESSION_UTILISATEUR] = this.txtAuth.Text;
 
-                this.Response.Redirect("~/UserConnect.aspx");
+                this.Response.Redirect("UserConnect.aspx");
             }
             else
             {

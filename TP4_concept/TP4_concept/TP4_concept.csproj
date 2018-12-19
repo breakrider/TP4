@@ -146,6 +146,10 @@
     <Content Include="base_donnee\bdConcept_log.ldf">
       <DependentUpon>bdConcept.mdf</DependentUpon>
     </Content>
+    <Content Include="bdConcept.mdf" />
+    <Content Include="bdConcept_log.ldf">
+      <DependentUpon>bdConcept.mdf</DependentUpon>
+    </Content>
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -168,6 +172,8 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Pages\accepter_commande.aspx" />
+    <Content Include="Pages\accueil.aspx" />
+    <Content Include="Pages\Commander.aspx" />
     <Content Include="Pages\images\iconUser.png" />
     <Content Include="Pages\PageInexistante.html" />
     <Content Include="Pages\pagesEmploye.Master" />
@@ -179,9 +185,11 @@
     <None Include="base_donnee\bdConcept.dbml.layout">
       <DependentUpon>bdConcept.dbml</DependentUpon>
     </None>
+    <Content Include="Pages\client.Master" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Pages\grid.css" />
     <Content Include="Pages\themeEmploye.css" />
+    <Content Include="Pages\UserConnect.aspx" />
     <Content Include="Pages\WebForm1.aspx" />
     <Content Include="Pages\AdminCUMenus.aspx" />
     <Content Include="Scripts\bootstrap.js" />
@@ -228,14 +236,13 @@
       <DependentUpon>About.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
-
     <Compile Include="base_donnee\bdConcept.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>bdConcept.dbml</DependentUpon>
     </Compile>
     <Compile Include="Classe\bdConcept.cs" />
-
+    <Compile Include="Classe\CategorieMenu.cs" />
     <Compile Include="Classe\Central.cs" />
     <Compile Include="Classe\Client.cs" />
     <Compile Include="Classe\Commande.cs" />
@@ -274,12 +281,40 @@
     <Compile Include="Pages\accepter_commande.aspx.designer.cs">
       <DependentUpon>accepter_commande.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Pages\accueil.aspx.cs">
+      <DependentUpon>accueil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\accueil.aspx.designer.cs">
+      <DependentUpon>accueil.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\client.Master.cs">
+      <DependentUpon>client.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\client.Master.designer.cs">
+      <DependentUpon>client.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Commander.aspx.cs">
+      <DependentUpon>Commander.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Commander.aspx.designer.cs">
+      <DependentUpon>Commander.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Pages\pagesEmploye.Master.cs">
       <DependentUpon>pagesEmploye.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Pages\pagesEmploye.Master.designer.cs">
       <DependentUpon>pagesEmploye.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\UserConnect.aspx.cs">
+      <DependentUpon>UserConnect.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\UserConnect.aspx.designer.cs">
+      <DependentUpon>UserConnect.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages\WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>

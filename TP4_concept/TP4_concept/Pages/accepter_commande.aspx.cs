@@ -13,12 +13,7 @@ namespace TP4_concept.Pages.page_accepter_consulter
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (!Page.IsPostBack)
-            {
-                LinqDataSource1.DataBind();
-                GridView1.DataBind();
-            }
-           
+        
 
         }
         public override void VerifyRenderingInServerForm(Control control)
@@ -39,11 +34,7 @@ namespace TP4_concept.Pages.page_accepter_consulter
         protected void GridView1_SelectedIndexChanged(object sender, EventArgs e)
         {
         
-
-                GridViewRow row = GridView1.SelectedRow;
-
-
-                TextBox1.Text = row.Cells[0].Text;
+            
           
 
 
